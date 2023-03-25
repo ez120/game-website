@@ -1,0 +1,164 @@
+/* ===========================media============================ */
+@media (min-width:768px) {
+  .contenr {
+    width: 750px;
+  }
+}
+
+@media (max-width:768px) {
+  .sec-1 .contenr .imge {
+    display: none;
+  }
+
+  .headr .contenr {
+    display: block;
+  }
+
+  .headr ul {
+    margin: 0;
+  }
+
+  .headr ul li .link {
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+
+  .sec-1 .contenr .text h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .sec-1 .contenr .text p {
+    line-height: 1.5;
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .sec10 .sup .text {
+    max-width: 200px;
+  }
+
+  .sec8 .contenr .skill {
+    width: 90%;
+  }
+
+  .sec8 .contenr .skill span {
+    width: 92%;
+  }
+
+  .sec11 .contenr .mian {
+    position: relative;
+    top: 15px;
+  }
+
+  .sec9 .contenr .imge {
+    width: 85%;
+  }
+
+  .sec10 .contenr {
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  }
+
+  .sec9 .contenr .all-box {
+    width: 85%;
+  }
+}
+
+@media (max-width:767px) {
+  .mega-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .headr ul li:hover .mega-menu {
+    top: 140px;
+  }
+
+  .mega-menu ul:first-of-type li:last-child {
+    border-bottom: solid 1px #e9e6e9;
+  }
+
+  .sec11 .contenr .mian {
+    position: relative;
+    top: 0px;
+  }
+
+  .sec12 .contenr .videos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ======middle======= */
+@media(min-width:992px) {
+  .contenr {
+    width: 970px;
+  }
+
+}
+
+@media (max-width:992px) {
+  .sec-1 .imge .img-1 {
+    display: none;
+  }
+
+  .sec-1 .contenr .text h1 {
+    text-align: center;
+  }
+
+  .sec-1 .contenr .text p {
+    width: 80%;
+    line-height: 1.5;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .headr ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width:991px) {
+  .mega-menu .imge {
+    display: none;
+  }
+
+  .sec8 .contenr .imgs {
+    display: none;
+  }
+
+  .sec10 .contenr .imge {
+    display: none;
+  }
+
+  .sec10 .dot {
+    display: none;
+  }
+
+  .sec10 .dot1 {
+    display: none;
+  }
+
+  .sec11 .dot {
+    display: none;
+  }
+
+  .sec11 .dot1 {
+    display: none;
+  }
+
+  .sec14 .texts,
+  .sec14 .call {
+    flex-basis: 100%;
+  }
+}
+
+/* ============= */
+@media(min-width:1200px) {
+  .contenr {
+    width: 1170px;
+  }
+}
+
+/* ============================media============================ */
